@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheEverythingStore", "TheEverythingStore\TheEverythingStore.csproj", "{012A3DC6-509E-4E50-9C32-E34BF17C707D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheEverythingStore.Tests", "TheEverythingStore.Tests\TheEverythingStore.Tests.csproj", "{DB6C8EF5-D0C0-4301-8090-C09594C1810C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{012A3DC6-509E-4E50-9C32-E34BF17C707D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{012A3DC6-509E-4E50-9C32-E34BF17C707D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{012A3DC6-509E-4E50-9C32-E34BF17C707D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{012A3DC6-509E-4E50-9C32-E34BF17C707D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB6C8EF5-D0C0-4301-8090-C09594C1810C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB6C8EF5-D0C0-4301-8090-C09594C1810C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB6C8EF5-D0C0-4301-8090-C09594C1810C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB6C8EF5-D0C0-4301-8090-C09594C1810C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3AE07CAC-3369-42DD-AAE8-CC5F31F6D603}
+	EndGlobalSection
+EndGlobal
