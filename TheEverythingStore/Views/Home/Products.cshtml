@@ -1,4 +1,5 @@
-﻿@model IEnumerable<TheEverythingStore.Models.Product>
+﻿<!--accepts list of product list from Home.Controller line 55 -->
+@model IEnumerable<TheEverythingStore.Models.Product>
 
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -11,6 +12,9 @@
    @foreach (var p in Model)
 
     {
-        <li>@p.Name</li>
+       <!--create a link to a method in Home controller, pass new variable called 
+           product name as a parameter-->
+        <li>@Html.ActionLink(p.Name,"ViewProduct", "Home", 
+            new {ProductName = p.Name}, null)</li>
     }
 </ul>
