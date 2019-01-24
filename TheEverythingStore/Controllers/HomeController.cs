@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using TheEverythingStore.Models;
 
 namespace TheEverythingStore.Controllers
 {
@@ -25,6 +26,33 @@ namespace TheEverythingStore.Controllers
             ViewBag.Message = "Your contact page.";
 
             return View();
+        }
+
+
+        public ActionResult Products()
+        {/* old untyped ViewBag code
+            var products = new List<string>();
+
+            //create mock products 
+            for (int i = 1; i <= 10; i++) 
+            {
+                products.Add("Product " + i.ToString());
+            }
+
+            //pass mock products to the view for display
+            ViewBag.Products = products; */
+
+            //create 10 product objects
+            var products = new List<Product>();
+
+            for (int i = 1; i <= 10; i++)
+            {
+                Product product = new Product();
+                product.Name = "Product " + i.ToString();
+                products.Add(product);
+            }
+            // load the view and pass the product list to it
+            return View(products);
         }
     }
 }
