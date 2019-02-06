@@ -9,7 +9,8 @@ namespace TheEverythingStore.Controllers
 {
     public class HomeController : Controller
     {
-        // connect to DB
+        // connect to database / create an instance of db connection
+
         private DbModel db = new DbModel();
 
         public ActionResult Index()
@@ -46,10 +47,10 @@ namespace TheEverythingStore.Controllers
             ViewBag.Products = products; */
 
             //create 10 product objects
-            //
+            
            
 
-            //use the product model to retrieve the entire product list from sql server
+            //use the Product model to retrieve the entire product list from sql server
             var products = db.Products.ToList();
 
             // load the view and pass the product list to it

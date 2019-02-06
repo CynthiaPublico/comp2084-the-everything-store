@@ -1,0 +1,17 @@
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+
+    <h1>Job Board</h1>
+
+    <p class="lead">Job Board Application is developed in COMP2084 Server-Side Scripting (Winter 2019). The application is built using ASP.Net Framework, MVC5, SQL and Bootstrap. </p>
+    
+    <p>Job Board is an online job matching for applicants seeking employment and companies searching for talents.</p>
+
+    <p>Source code available on<a href="https://github.com/cdpub/COMP2084-W2019-JobBoard "> GitHub</a>.</p>
+    
+    <p>Bootstrap SuperHero Theme from <a href="Readme https://bootswatch.com/3/superhero/">https://bootswatch.com/3/superhero/</a></p>
+
+</div>
